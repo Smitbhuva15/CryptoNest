@@ -5,7 +5,7 @@ const cryptoApiHeaders = {
    'x-rapidapi-key': "1f15313f9emshe5ae8ad1947348ep104f15jsn2dfcb17c426e",
 };
 // console.log(process.env); // Check if your env variables are available
-console.log(process.env.REACT_APP_RAPIDAPI_KEY);
+// console.log(process.env.REACT_APP_RAPIDAPI_KEY);
 
 
 const createRequest = (url) => ({

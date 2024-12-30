@@ -19,7 +19,7 @@ const news = ({ simplified }) => {
 
   const { data: crypoNews, isFetching } = useGetCryptoNewsQuery({ newsCategory, count });
   if (isFetching) return <Loader />
-  console.log(crypoNews.articles)
+  // console.log(crypoNews.articles)
 
 
 
